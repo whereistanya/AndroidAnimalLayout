@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NavigationTutorial</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="excited_layout_text">OMG ConstraintLayout</string>
+    <string name="excited_cat_fragment_text">This is the fragment that contains a cat!</string>
+    <string name="cat_alt_text">It\'s a pretty standard cat</string>
+</resources>

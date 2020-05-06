@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/catFragment"
+        android:title="ConstraintLayout Cat"
+        android:icon="@drawable/ic_cat_vector"
+    />
+    <item
+        android:id="@+id/alpacaFragment"
+        android:title="LinearLayout Alpaca"
+        android:icon="@drawable/ic_alpaca_vector"
+    />
+    <item
+        android:id="@+id/emuFragment"
+        android:title="Framelayout Emu"
+        android:icon="@drawable/ic_emu_vector"
+    />
+</menu>

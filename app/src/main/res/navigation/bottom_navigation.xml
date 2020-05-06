@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/catFragment">
+
+    <fragment
+        android:id="@+id/catFragment"
+        android:name="com.example.animallayout.CatFragment"
+        android:label="categorically a cat"
+        tools:layout="@layout/fragment_cat" >
+        <action
+            android:id="@+id/action_catFragment_to_puppyFragment"
+            app:destination="@id/puppyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/emuFragment"
+        android:name="com.example.animallayout.EmuFragment"
+        android:label="unexpectedly emu"
+        tools:layout="@layout/fragment_emu" />
+    <fragment
+        android:id="@+id/alpacaFragment"
+        android:name="com.example.animallayout.AlpacaFragment"
+        android:label="alpaca all the way"
+        tools:layout="@layout/fragment_alpaca" />
+    <fragment
+        android:id="@+id/puppyFragment"
+        android:name="com.example.animallayout.PuppyFragment"
+        android:label="incredible secret puppy!"
+        tools:layout="@layout/fragment_puppy" />
+</navigation>
